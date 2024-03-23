@@ -13,3 +13,155 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styles.css */
+
+.profile {
+  background-color: #f2f2f2; /* Fondo gris claro */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+}
+
+.description {
+  background-color: #ffffff; /* Fondo blanco */
+  text-align: center; /* Centra el texto dentro del div */
+}
+
+.avatar {
+  border-radius: 50%; 
+}
+
+
+.stats {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  list-style: none;
+}
+
+.stats li {
+  margin: 0 10px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilos para la lista de transacciones */
+.statistics {
+
+  background-color: #f2f2f2; /* Fondo gris claro */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+.stat-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.item {
+  margin-left: 0px;
+    width: 60px;
+    height: 60px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.percentage {
+  
+  font-size: 1.2em; /* Aumenta el tamaño de fuente */
+
+  display: block;
+
+}
+
+/* Colores de fondo para los elementos específicos */
+.docx {
+  background-color: lightblue;
+}
+
+.pdf {
+  background-color: purple;
+}
+
+.mp3 {
+  background-color: red;
+}
+
+.psd {
+  background-color: aquamarine;
+}
+
+
+.friend-list {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.friend-item {
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.online-now {
+  background-color: green;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  border-radius: 100px; /* Radio de redondeo (puedes ajustarlo según tus necesidades) */
+  padding: 20px; /* Espacio interno para el contenido */
+}
+
+.offline-now {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  background-color: red;
+  border-radius: 100px; /* Radio de redondeo (puedes ajustarlo según tus necesidades) */
+  padding: 20px; /* Espacio interno para el contenido */
+}
+.name { 
+  font-size: 3.5em;
+}
+
+/* Estilos para la tabla de historial de transacciones */
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para las celdas de type, amount y currency */
+.transaction-history th {
+  background-color: rgb(7, 148, 196);
+  color: white;
+}
+
+.transaction-history td {
+  background-color: #f0f8ff; /* Azul cielo */
+  color: black;
+}
+
+
